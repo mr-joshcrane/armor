@@ -1,7 +1,9 @@
-package test_armor
+package armor_test
 
 import (
 	"testing"
+
+	"github.com/qba73/armor"
 )
 
 func TestValidatePolicy_CanDetectAValidPolicy(t *testing.T) {
